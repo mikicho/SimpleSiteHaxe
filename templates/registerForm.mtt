@@ -1,0 +1,11 @@
+<div class="registerFormContainer">
+	<form id="registerForm" onsubmit="return myClient.checkRegistarFormValid()">
+		שם משתמש:<br>
+		<input type="text" name="userName" value="" class="formValidatorUserName" /> <br><br>
+		אימייל:<br>
+		<input type="text" name="email" value="" class="formValidatorEmail" /> <br><br>
+		:סיסמא:<br>
+		<input type="password" name="password" class="formValidatorPassword" /> <br><br>
+		<input type="submit" class="registerSubmit" name="register" value="הרשם" />
+	</form>
+</div>

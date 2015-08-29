@@ -1,0 +1,33 @@
+<html dir="rtl">
+	<head>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<header class="header">
+			<nav>
+				<a class="FAQBtn load-content" title="Home" href="home">ראשי</a> |
+				<a class="LoginBtn load-content" title="Login" href="user/login">התחבר</a> |
+				<a class="RegisterBtn load-content" title="Register" href="user/register">הרשם</a> |
+				<a class="NewQuestionBtn load-content" title="Ask Question" href="ask">שאל שאלה</a> 
+			</nav>
+		</header>
+		<div class="content">
+			::content::
+		</div>
+		<footer class="footer">
+			 <address>
+				Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
+				Visit us at:<br>
+				Example.com<br>
+				Box 564, Disneyland<br>
+				USA
+			</address> 
+		</footer>	
+		<link rel="stylesheet" type="text/css" href="style.min.css"> 
+		<script src="client.js"></script>
+		<script>
+			myClient = new Client();
+			myLogin = new client.pages.Login();
+		</script>
+	</body>
+</html>

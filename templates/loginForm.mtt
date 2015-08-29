@@ -1,0 +1,9 @@
+<div class="loginFormContainer">
+	<form id="loginForm" onsubmit="myLogin.loginFormPost();">
+		אימייל:<br>
+		<input type="text" name="userName" value="" class="formValidatorEmail" /> <br><br>
+		:סיסמא:<br>
+		<input type="password" name="password" class="formValidatorPassword" /> <br><br>
+		<input type="submit" class="loginSubmit" name="login" value="התחבר" />
+	</form>	
+</div>
